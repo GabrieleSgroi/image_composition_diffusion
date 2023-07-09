@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+requires-python = ">=3.10"
+
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffusion_composition"
+version = "0.1"
+
+dependencies = ["diffusers==0.17.0",
+                "matplotlib==3.7.1",
+                "Pillow==8.4.0",
+                "tqdm==4.65.0",
+                "transformers==4.30.1",
+                "accelerate==0.20.3",
+                "torch==2.0.1"]
+
+[options]
+packages = "diffusion_composition"
+
